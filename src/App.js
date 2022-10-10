@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import BasicExample from "./Navbar";
+import CardExample from "./Card";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>My Portfolio</p>
-      </header>
+      <BasicExample />
+      <CardExample />
     </div>
   );
 }

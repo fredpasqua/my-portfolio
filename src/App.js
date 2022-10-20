@@ -5,6 +5,7 @@ import AngularImage from "../src/Images/AngularApp.jpg";
 import PokedexImage from "../src/Images/PokedexImage.jpg";
 import SpellingGameImage from "../src/Images/SpellingGameImage.jpg";
 import MeetApp from "../src/Images/meetapp.jpg";
+import GitLogo from "../src/Images/github-svgrepo-com.svg";
 import Test from "./about";
 import Menu from "./Navbar";
 function App() {
@@ -42,6 +43,9 @@ function App() {
           <li>Experience as a Sales Professional</li>
           <li>Client focused and business centric</li>
         </ul>
+
+        <p>Find Me On</p>
+        <img className="gitlogo" src={GitLogo} alt="github"></img>
       </div>
       <p id="projects"></p>
       <p className="header-title">PROJECTS</p>

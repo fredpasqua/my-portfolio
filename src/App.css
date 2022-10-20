@@ -2,7 +2,7 @@
   text-align: center;
   background-color: black;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 a {
   color: white;
@@ -16,27 +16,58 @@ a {
   margin: 10px;
   justify-content:center;
 }
+span {
 
+  background-color: black;
+  padding: 10px;
+}
+h2:before {
+  content: "";
+  display: block;
+ width:50%;
+  height: 2px;
+  background: #93f7e0;
+  position: absolute;
+  right:10px;
+  top:52%;
+z-index: -2;
+}
+h2:after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 2px;
+  background:  #93f7e0;
+  position: absolute;
+  left: 10px;
+  top: 52%;
+  z-index: -2;
+}
 .header-title  {
-  display: inline-block;
+  background-color: black;
+  position: relative;
+  padding: 5px;
+  display: block;
   text-align: center;
   margin-top: 10px;
     font-size: 60px;
     color: #93f7e0;
     font-weight: bolder;
-    padding: 20px;
+    padding: 10px;
     opacity: 1;
-    max-width: 90vw;
+    font-family: 'Share Tech Mono', monospace;
+    z-index: 1;
 }
 
 ul {
   color: #93f7e0;
   list-style-type: none;
-
+  font-family: 'Share Tech Mono', monospace;
 }
 .about p {
   font-size: 40px;
   color: #93f7e0;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 .about {
@@ -45,6 +76,7 @@ ul {
   min-height: 500px;
   padding: 50px;
   align-items: center;
+  font-family: 'Share Tech Mono', monospace;
  
 }
 .gitlogo {
@@ -52,5 +84,12 @@ ul {
   fill: #93f7e0;
 
 }
+
+.bold-li {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
 
 

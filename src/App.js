@@ -27,8 +27,9 @@ function App() {
 
       <Test />
       <div className="about" id="about">
-        <h1 className="header-title">ABOUT ME</h1>
+        <h2 className="header-title">About</h2>
         <ul>
+          <li className="bold-li">Tech</li>
           <li>Full Stack Web Developer Certificate from CareerFoundry 2022</li>
           <li>Experienced developing in React, React Native, Angular</li>
           <li>Javascript, HTML, JSX, CSS, SCSS, Bootstrap</li>
@@ -36,11 +37,12 @@ function App() {
             Node.js, APIs, Axios, Postman, Integration testing, Documentation,
             Github
           </li>
+          <li className="bold-li">Related Skills</li>
           <li>Experienced Blogger with SEO Skills</li>
           <li>Attention to Detail</li>
           <li>Entrepreneurial Spirit</li>
           <li>Organized and Efficient</li>
-          <li>Experience as a Sales Professional</li>
+          <li>Professional Sales Experience</li>
           <li>Client focused and business centric</li>
         </ul>
 
@@ -48,7 +50,9 @@ function App() {
         <img className="gitlogo" src={GitLogo} alt="github"></img>
       </div>
       <p id="projects"></p>
-      <p className="header-title">PROJECTS</p>
+      <h2 className="header-title">
+        <span>Projects</span>
+      </h2>
       <div className="Projects">
         <ProjectCard
           className="projectItem"

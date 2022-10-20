@@ -23,7 +23,26 @@ function App() {
   return (
     <div className="App" id="home">
       <Menu></Menu>
-      <Test id="about" />
+
+      <Test />
+      <div className="about" id="about">
+        <h1 className="header-title">ABOUT ME</h1>
+        <ul>
+          <li>Full Stack Web Developer Certificate from CareerFoundry 2022</li>
+          <li>Experienced developing in React, React Native, Angular</li>
+          <li>Javascript, HTML, JSX, CSS, SCSS, Bootstrap</li>
+          <li>
+            Node.js, APIs, Axios, Postman, Integration testing, Documentation,
+            Github
+          </li>
+          <li>Experienced Blogger with SEO Skills</li>
+          <li>Attention to Detail</li>
+          <li>Entrepreneurial Spirit</li>
+          <li>Organized and Efficient</li>
+          <li>Experience as a Sales Professional</li>
+          <li>Client focused and business centric</li>
+        </ul>
+      </div>
       <p id="projects"></p>
       <p className="header-title">PROJECTS</p>
       <div className="Projects">
@@ -77,24 +96,6 @@ function App() {
             "A fun game I programmed for my daughters to help them study their spelling words."
           }
         />
-      </div>
-      <div classname="about" id="about">
-        <h1 className="header-title">ABOUT ME</h1>
-        <ul>
-          <li>Full Stack Web Developer Certificate from CareerFoundry 2022</li>
-          <li>Experienced developing in React, React Native, Angular</li>
-          <li>Javascript, HTML, JSX, CSS, SCSS, Bootstrap</li>
-          <li>
-            Node.js, APIs, Axios, Postman, Integration testing, Documentation,
-            Github
-          </li>
-          <li>Experienced Blogger with SEO Skills</li>
-          <li>Attention to Detail</li>
-          <li>Entrepreneurial Spirit</li>
-          <li>Organized and Efficient</li>
-          <li>Experience as a Sales Professional</li>
-          <li>Client focused and business centric</li>
-        </ul>
       </div>
     </div>
   );

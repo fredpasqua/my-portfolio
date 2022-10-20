@@ -11,7 +11,6 @@ function ProjectCard(props) {
   return (
     <>
       <Card className="card" style={{ width: "25%" }}>
-        <Card.Img className="projectImage" variant="top" src={projectImage} />
         <Card.Body>
           <Card.Title style={{ color: "black" }}>
             {title}
@@ -20,6 +19,7 @@ function ProjectCard(props) {
           <Card.Text className="description" style={{ color: "black" }}>
             {description}
           </Card.Text>
+          <Card.Img className="projectImage" variant="top" src={projectImage} />
           <ListGroup.Item className="projButtons">
             <Button variant="outline-primary" href={liveLink} taget="blank">
               Live Project

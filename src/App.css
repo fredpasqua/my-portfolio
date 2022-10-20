@@ -10,21 +10,21 @@ a {
 }
 
 
-.Projects {
+.projectCards {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   margin: 10px;
   justify-content:center;
 }
-span {
-
+.span {
   background-color: black;
-  padding: 10px;
+
 }
 h2:before {
   content: "";
   display: block;
- width:50%;
+ width:20%;
   height: 2px;
   background: #93f7e0;
   position: absolute;
@@ -35,7 +35,7 @@ z-index: -2;
 h2:after {
   content: "";
   display: block;
-  width: 50%;
+  width: 20%;
   height: 2px;
   background:  #93f7e0;
   position: absolute;
@@ -58,14 +58,21 @@ h2:after {
     font-family: 'Share Tech Mono', monospace;
     z-index: 1;
 }
+#about {
 
+  margin-top: 100px;
+}
+#projects {
+
+  margin-top: 60px;
+}
 ul {
   color: #93f7e0;
   list-style-type: none;
   font-family: 'Share Tech Mono', monospace;
 }
 .about p {
-  font-size: 40px;
+  font-size: 50px;
   color: #93f7e0;
   font-family: 'Share Tech Mono', monospace;
 }

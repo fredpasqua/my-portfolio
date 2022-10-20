@@ -24,10 +24,11 @@ function App() {
   return (
     <div className="App" id="home">
       <Menu></Menu>
-
       <Test />
+      <h2 className="header-title">
+        <p className="span">About</p>
+      </h2>
       <div className="about" id="about">
-        <h2 className="header-title">About</h2>
         <ul>
           <li className="bold-li">Tech</li>
           <li>Full Stack Web Developer Certificate from CareerFoundry 2022</li>
@@ -49,61 +50,60 @@ function App() {
         <p>Find Me On</p>
         <img className="gitlogo" src={GitLogo} alt="github"></img>
       </div>
-      <p id="projects"></p>
-      <h2 className="header-title">
-        <span>Projects</span>
-      </h2>
-      <div className="Projects">
-        <ProjectCard
-          className="projectItem"
-          projectImage={ReactImage}
-          githubLink={myFlixReactLink}
-          liveLink={myFlixReactLive}
-          title={"React.JS Project"}
-          description={
-            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
-          }
-        />
-        <ProjectCard
-          className="projectItem"
-          projectImage={AngularImage}
-          githubLink={angularLink}
-          liveLink={angularLive}
-          title={"Angular Project"}
-          description={
-            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
-          }
-        />
-        <ProjectCard
-          className="projectItem"
-          projectImage={PokedexImage}
-          githubLink={pokeLink}
-          liveLink={pokeLive}
-          title={"PokeDex App"}
-          description={
-            "This PokeDex was created using an existing online API. The app was formatted using Bootstrap and a mobile first design concept."
-          }
-        />
-        <ProjectCard
-          className="projectItem"
-          projectImage={MeetApp}
-          githubLink={meetLink}
-          liveLink={meetLive}
-          title={"Meet App"}
-          description={
-            "This Progressive Web Application allows the user to search for web development classes being offered by CareerFoundry close to their city."
-          }
-        />
-        <ProjectCard
-          className="projectItem"
-          projectImage={SpellingGameImage}
-          githubLink={spellingLink}
-          liveLink={spellingLive}
-          title={"Say N' Spell"}
-          description={
-            "A fun game I programmed for my daughters to help them study their spelling words."
-          }
-        />
+      <div id="project">
+        <h2 className="header-title">Projects</h2>
+        <div className="projectCards">
+          <ProjectCard
+            className="projectItem"
+            projectImage={ReactImage}
+            githubLink={myFlixReactLink}
+            liveLink={myFlixReactLive}
+            title={"React.JS Project"}
+            description={
+              "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={AngularImage}
+            githubLink={angularLink}
+            liveLink={angularLive}
+            title={"Angular Project"}
+            description={
+              "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={PokedexImage}
+            githubLink={pokeLink}
+            liveLink={pokeLive}
+            title={"PokeDex App"}
+            description={
+              "This PokeDex was created using an existing online API. The app was formatted using Bootstrap and a mobile first design concept."
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={MeetApp}
+            githubLink={meetLink}
+            liveLink={meetLive}
+            title={"Meet App"}
+            description={
+              "This Progressive Web Application allows the user to search for web development classes being offered by CareerFoundry close to their city."
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={SpellingGameImage}
+            githubLink={spellingLink}
+            liveLink={spellingLive}
+            title={"Say N' Spell"}
+            description={
+              "A fun game I programmed for my daughters to help them study their spelling words."
+            }
+          />
+        </div>
       </div>
     </div>
   );

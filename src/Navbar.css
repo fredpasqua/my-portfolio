@@ -3,3 +3,7 @@
     font-family: 'Share Tech Mono', monospace;
     
 }
+
+span {
+    background-color: white !important;
+}

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
 .projectImage {
-    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
     max-height: 400px;
@@ -15,13 +18,17 @@
 .card {
     background-color: rgb(151, 191, 202);
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     max-width: 50%;
     min-width: 400px;
     border: none;
-    box-shadow: 3px 6px 9px 0px rgba(0,0,0,0.75)
+    font-size: large;
+    box-shadow: 3px 6px 9px 0px rgba(0,0,0,0.75);
+    font-family: 'Share Tech Mono', monospace;
  }
 
  .description {
-    height: 4rem;
+    height: 6rem;
+    font-family: 'Share Tech Mono', monospace;
  }
+

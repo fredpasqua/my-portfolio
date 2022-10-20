@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-
+  background-color: black;
 }
 
 
@@ -16,4 +16,27 @@ a {
   margin: 10px;
   justify-content:center;
 }
+
+.header-title  {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+    font-size: 60px;
+    color: #93f7e0;
+    font-weight: bolder;
+    padding: 20px;
+    opacity: 1;
+    max-width: 90vw;
+}
+
+ul {
+  color: #93f7e0;
+  list-style-type: none;
+
+}
+
+.about {
+  height: 100vh;
+}
+
 

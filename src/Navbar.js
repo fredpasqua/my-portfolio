@@ -5,14 +5,14 @@ import "./Navbar.css";
 function Menu() {
   return (
     <div className="navstyle">
-      <Navbar bg="light" variant="light" expand="lg">
+      <Navbar bg="light" variant="light" expand="lg" fixed="top">
         <Container className="navbar-container">
-          <Navbar.Brand href="#home">Fred Pasqua Portfolio</Navbar.Brand>
+          <Navbar.Brand href="#home">fredPasqua|webDev</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">About</Nav.Link>
-              <Nav.Link href="#link">Projects</Nav.Link>
+              <Nav.Link href="#about">about</Nav.Link>
+              <Nav.Link href="#projects">projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -17,7 +17,9 @@ function ProjectCard(props) {
             {title}
             <popover />
           </Card.Title>
-          <Card.Text style={{ color: "black" }}>{description}</Card.Text>
+          <Card.Text className="description" style={{ color: "black" }}>
+            {description}
+          </Card.Text>
           <ListGroup.Item className="projButtons">
             <Button variant="outline-primary" href={liveLink} taget="blank">
               Live Project

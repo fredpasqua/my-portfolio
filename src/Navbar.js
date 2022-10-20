@@ -1,9 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./App.css";
-
-function BasicExample() {
+import "./Navbar.css";
+function Menu() {
   return (
     <Navbar bg="light" variant="light" expand="lg">
       <Container className="navbar-container">
@@ -20,4 +19,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Menu;

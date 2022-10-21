@@ -91,7 +91,7 @@ function App() {
             liveLink={meetLive}
             title={"Meet App"}
             description={
-              "This Progressive Web Application allows the user to search for web development classes being offered by CareerFoundry close to their city."
+              "This Progressive Web displays web development classes being offered by CareerFoundry close to the users city of choice."
             }
           />
           <ProjectCard

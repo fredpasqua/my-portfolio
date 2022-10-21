@@ -27,6 +27,10 @@ a {
   font-family: 'Share Tech Mono', monospace;
 }
 ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+ 
   color: #93f7e0;
   list-style-type: none;
   font-family: 'Share Tech Mono', monospace;

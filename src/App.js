@@ -121,7 +121,9 @@ function App() {
         <p>
           <a href="mailto:fredpasqua74@gmail.com">Send Email</a>
         </p>
-        <img className="gitlogo" src={GitLogo} alt="github"></img>
+        <a href="https://github.com/fredpasqua" taget="blank">
+          <img className="gitlogo" src={GitLogo} alt="github"></img>
+        </a>
         <img
           className="contactImage"
           src={CodeScreen}

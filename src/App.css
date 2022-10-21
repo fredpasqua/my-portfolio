@@ -40,8 +40,6 @@ ul {
 
 }
 
-
-
 .about {
  border: 5px solid #93f7e0;
   margin-top: 10px;
@@ -66,9 +64,10 @@ ul {
   font-size: 20px;
   color: #93f7e0;
   font-family: 'Share Tech Mono', monospace;
- 
-
-
+ }
+ .contactImage {
+  height: 500px;
+  border-radius: 5px;
  }
 .header-title  {
   text-align: center;

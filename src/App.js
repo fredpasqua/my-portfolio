@@ -6,6 +6,7 @@ import PokedexImage from "../src/Images/PokedexImage.jpg";
 import SpellingGameImage from "../src/Images/SpellingGameImage.jpg";
 import MeetApp from "../src/Images/meetapp.jpg";
 import GitLogo from "../src/Images/github-svgrepo-com.svg";
+import CodeScreen from "../src/Images/codescreen.jpg";
 import Test from "./about";
 import Menu from "./Navbar";
 function App() {
@@ -117,6 +118,11 @@ function App() {
         <p>
           <a href="mailto:fredpasqua74@gmail.com">Send Email</a>
         </p>
+        <img
+          className="contactImage"
+          src={CodeScreen}
+          alt="computer screen with code"
+        ></img>
       </div>
     </div>
   );

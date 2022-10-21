@@ -24,20 +24,21 @@ function App() {
   return (
     <div className="App" id="home">
       <Menu></Menu>
-      <Test />
-      <h2 className="header-title">
-        <p className="span">About</p>
-      </h2>
+
       <div className="about" id="about">
+        <h2 className="header-title">About</h2>
+        <p>
+          My name is Fred Pasqua and I am a web developer. I love working with
+          new tech and creating engaging designs, clean code and excellent user
+          experiences.{" "}
+        </p>
         <ul>
           <li className="bold-li">Tech</li>
-          <li>Full Stack Web Developer Certificate from CareerFoundry 2022</li>
-          <li>Experienced developing in React, React Native, Angular</li>
-          <li>Javascript, HTML, JSX, CSS, SCSS, Bootstrap</li>
-          <li>
-            Node.js, APIs, Axios, Postman, Integration testing, Documentation,
-            Github
-          </li>
+          <li>Full Stack Web Developer Bootcamp completed 2022</li>
+          <li>Experienced developing in React and React Native</li>
+          <li>Javascript, HTML, JSX, CSS, SCSS</li>
+          <li> Node.js, APIs, Axios, Postman, Integration testing</li>
+          <li>Documentation, Github</li>
           <li className="bold-li">Related Skills</li>
           <li>Experienced Blogger with SEO Skills</li>
           <li>Attention to Detail</li>
@@ -50,6 +51,7 @@ function App() {
         <p>Find Me On</p>
         <img className="gitlogo" src={GitLogo} alt="github"></img>
       </div>
+
       <div id="project">
         <h2 className="header-title">Projects</h2>
         <div className="projectCards">
@@ -104,6 +106,17 @@ function App() {
             }
           />
         </div>
+      </div>
+      <div className="contact" id="contact">
+        <p>Fred Pasqua</p>
+        <p>Haddon Heights</p>
+        <p>New Jersey</p>
+        <p>
+          Tel <a href="tel:6098765098">(609) 876-5098</a>
+        </p>
+        <p>
+          <a href="mailto:fredpasqua74@gmail.com">Send Email</a>
+        </p>
       </div>
     </div>
   );

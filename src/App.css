@@ -3,12 +3,13 @@
   background-color: black;
 }
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
-
+body {
+  margin-top: 60px;
+}
 a {
   color: white;
   text-decoration: none;
 }
-
 
 .projectCards {
   display: flex;
@@ -17,74 +18,68 @@ a {
   margin: 10px;
   justify-content:center;
 }
-.span {
-  background-color: black;
 
-}
-h2:before {
-  content: "";
-  display: block;
- width:20%;
-  height: 2px;
-  background: #93f7e0;
-  position: absolute;
-  right:10px;
-  top:52%;
-z-index: -2;
-}
-h2:after {
-  content: "";
-  display: block;
-  width: 20%;
-  height: 2px;
-  background:  #93f7e0;
-  position: absolute;
-  left: 10px;
-  top: 52%;
-  z-index: -2;
-}
-.header-title  {
-  background-color: black;
-  position: relative;
-  padding: 5px;
-  display: block;
-  text-align: center;
-  margin-top: 10px;
-    font-size: 60px;
-    color: #93f7e0;
-    font-weight: bolder;
-    padding: 10px;
-    opacity: 1;
-    font-family: 'Share Tech Mono', monospace;
-    z-index: 1;
-}
-#about {
-
-  margin-top: 100px;
-}
-#projects {
-
-  margin-top: 60px;
+#project{
+  border: 5px solid #93f7e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Share Tech Mono', monospace;
 }
 ul {
   color: #93f7e0;
   list-style-type: none;
   font-family: 'Share Tech Mono', monospace;
 }
-.about p {
-  font-size: 50px;
+.about p, li{
+  font-size: 20px;
   color: #93f7e0;
   font-family: 'Share Tech Mono', monospace;
+  margin-left: 20%;
+  margin-right: 20%;
+
 }
 
+
+
 .about {
+ border: 5px solid #93f7e0;
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
-  min-height: 500px;
-  padding: 50px;
   align-items: center;
   font-family: 'Share Tech Mono', monospace;
+  padding:10px;
  
+}
+.contact {
+  border: 5px solid #93f7e0;
+  
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: 'Share Tech Mono', monospace;
+   padding:20px;
+  
+ }
+ .contact p, a{
+  font-size: 20px;
+  color: #93f7e0;
+  font-family: 'Share Tech Mono', monospace;
+ 
+
+
+ }
+.header-title  {
+  text-align: center;
+  font-size: 50px;
+  color: #93f7e0;
+  font-weight: bolder;
+  text-decoration:underline;
+  margin-top: 60px;
+  opacity: 1;
+  font-family: 'Share Tech Mono', monospace;
+  z-index: 1;
 }
 .gitlogo {
   width: 40px;
@@ -93,9 +88,9 @@ ul {
 }
 
 .bold-li {
-  margin-top: 20px;
   font-size: 40px;
   font-family: 'Share Tech Mono', monospace;
+  margin-top: 20px;
 }
 
 

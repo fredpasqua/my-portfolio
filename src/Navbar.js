@@ -5,7 +5,13 @@ import "./Navbar.css";
 function Menu() {
   return (
     <div className="navstyle">
-      <Navbar bg="light" variant="light" expand="lg" fixed="top">
+      <Navbar
+        collapseOnSelect
+        bg="light"
+        variant="light"
+        expand="lg"
+        fixed="top"
+      >
         <Container className="navbar-container">
           <Navbar.Brand href="#home">fredPasqua|webDev</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

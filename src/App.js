@@ -7,6 +7,7 @@ import SpellingGameImage from "../src/Images/SpellingGameImage.jpg";
 import MeetApp from "../src/Images/meetapp.jpg";
 import GitLogo from "../src/Images/github-svgrepo-com.svg";
 import CodeScreen from "../src/Images/codescreen.jpg";
+import Philly from "../src/Images/philly.jpg";
 import Test from "./about";
 import Menu from "./Navbar";
 function App() {
@@ -25,7 +26,7 @@ function App() {
   return (
     <div className="App" id="home">
       <Menu></Menu>
-
+      <Test />
       <div className="about" id="about">
         <h2 className="header-title">About</h2>
         <p>
@@ -38,8 +39,8 @@ function App() {
           <li>Full Stack Web Developer Bootcamp completed 2022</li>
           <li>Experienced developing in React and React Native</li>
           <li>Javascript, HTML, JSX, CSS, SCSS</li>
-          <li> Node.js, APIs, Axios, Postman, Integration testing</li>
-          <li>Documentation, Github</li>
+          <li> Node.js, APIs, Axios, Postman, Unit and Integration testing</li>
+          <li>Documentation, Github, MongoDB</li>
           <li className="bold-li">Related Skills</li>
           <li>Experienced Blogger with SEO Skills</li>
           <li>Attention to Detail</li>
@@ -48,13 +49,10 @@ function App() {
           <li>Professional Sales Experience</li>
           <li>Client focused and business centric</li>
         </ul>
-
-        <p>Find Me On</p>
-        <img className="gitlogo" src={GitLogo} alt="github"></img>
       </div>
 
       <div id="project">
-        <h2 className="header-title">Projects</h2>
+        <h2 className="header-title">My Work</h2>
         <div className="projectCards">
           <ProjectCard
             className="projectItem"
@@ -109,6 +107,11 @@ function App() {
         </div>
       </div>
       <div className="contact" id="contact">
+        <img
+          className="contactImage"
+          src={Philly}
+          alt="philadelphia sky line"
+        ></img>
         <p>Fred Pasqua</p>
         <p>Haddon Heights</p>
         <p>New Jersey</p>
@@ -118,6 +121,7 @@ function App() {
         <p>
           <a href="mailto:fredpasqua74@gmail.com">Send Email</a>
         </p>
+        <img className="gitlogo" src={GitLogo} alt="github"></img>
         <img
           className="contactImage"
           src={CodeScreen}

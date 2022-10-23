@@ -21,12 +21,22 @@ function ProjectCard(props) {
           </Card.Text>
           <Card.Img className="projectImage" variant="top" src={projectImage} />
           <ListGroup.Item className="projButtons">
-            <Button variant="primary" href={liveLink} taget="blank">
+            <Button
+              variant="info"
+              href={liveLink}
+              taget="blank"
+              className="custom-btn"
+            >
               Live Project
             </Button>
           </ListGroup.Item>
           <ListGroup.Item className="projButtons">
-            <Button variant="primary" href={githubLink} target="blank">
+            <Button
+              className="custom-btn"
+              variant="info"
+              href={githubLink}
+              target="blank"
+            >
               GitHub
             </Button>
           </ListGroup.Item>

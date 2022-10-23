@@ -13,10 +13,11 @@
 
 .projButtons {
     margin: 10px;
+    color: #6385f4;
 }
 
 .card {
-    background-color: rgb(151, 191, 202);
+    background-color: #63cdf4;
     padding: 5px;
     margin: 10px;
     max-width: 50%;

@@ -21,7 +21,7 @@ function App() {
   let meetLink = "https://github.com/fredpasqua/meet";
   let meetLive = "https://fredpasqua.github.io/meet/";
   let spellingLink = "https://github.com/fredpasqua/Spelling-Test-2";
-  let spellingLive = "https://fredsjams.com/spellinggame/index.html";
+  let spellingLive = "https://fredpasqua.github.io/Spelling-Test-2";
 
   return (
     <div className="App" id="home">

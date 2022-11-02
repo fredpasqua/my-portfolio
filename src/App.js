@@ -8,6 +8,7 @@ import MeetApp from "../src/Images/meetapp.jpg";
 import GitLogo from "../src/Images/github-svgrepo-com.svg";
 import CodeScreen from "../src/Images/codescreen.jpg";
 import Philly from "../src/Images/philly.jpg";
+import Mongodb from "../src/Images/Mongodb.png";
 import Test from "./about";
 import Menu from "./Navbar";
 function App() {
@@ -22,6 +23,8 @@ function App() {
   let meetLive = "https://fredpasqua.github.io/meet/";
   let spellingLink = "https://github.com/fredpasqua/Spelling-Test-2";
   let spellingLive = "https://fredsjams.com/spellinggame/index.html";
+  let apiLive = "https://github.com/fredpasqua/movie_api/blob/master/README.md";
+  let apiLink = "https://github.com/fredpasqua/movie_api";
 
   return (
     <div className="App" id="home">
@@ -53,7 +56,18 @@ function App() {
 
       <div id="project">
         <h2 className="header-title">My Work</h2>
+
         <div className="projectCards">
+          <ProjectCard
+            className="projectItem"
+            projectImage={Mongodb}
+            githubLink={apiLink}
+            liveLink={apiLive}
+            title={"API"}
+            description={
+              "Movie API: server-side component of the movies web applications"
+            }
+          />
           <ProjectCard
             className="projectItem"
             projectImage={ReactImage}

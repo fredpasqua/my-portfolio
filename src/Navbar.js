@@ -16,10 +16,10 @@ function Menu() {
           <Navbar.Brand href="#home">fredPasqua|webDev</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#about">about</Nav.Link>
-              <Nav.Link href="#project">projects</Nav.Link>
-              <Nav.Link href="#contact">contact</Nav.Link>
+            <Nav className="me-auto links">
+              <Nav.Link href="#about">About</Nav.Link>
+              <Nav.Link href="#project">Projects</Nav.Link>
+              <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

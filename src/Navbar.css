@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 .navstyle {
-    font-family: 'Share Tech Mono', monospace;
-    
+    font-family: 'Share Tech Mono', monospace;  
 }
 
 span {
     background-color: white !important;
 }
+.links :hover{
+    border-radius: 10px;
+    background-color: rgba(0, 208, 255, 0.102);  
+}
+
+

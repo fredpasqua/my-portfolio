@@ -1,5 +1,6 @@
 import "./App.css";
 import ProjectCard from "./Card";
+import YoutubeEmbed from "./video";
 import ReactImage from "../src/Images/myFlixScreenShot.jpg";
 import AngularImage from "../src/Images/AngularApp.jpg";
 import PokedexImage from "../src/Images/PokedexImage.jpg";

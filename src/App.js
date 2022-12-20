@@ -10,6 +10,7 @@ import GitLogo from "../src/Images/github-svgrepo-com.svg";
 import CodeScreen from "../src/Images/codescreen.jpg";
 import Philly from "../src/Images/philly.jpg";
 import Mongodb from "../src/Images/Mongodb.png";
+import Robots from "../src/Images/robots.jpg";
 import Test from "./about";
 import Menu from "./Navbar";
 function App() {
@@ -26,6 +27,8 @@ function App() {
   let spellingLive = "https://fredsjams.com/spellinggame/index.html";
   let apiLive = "https://github.com/fredpasqua/movie_api/blob/master/README.md";
   let apiLink = "https://github.com/fredpasqua/movie_api";
+  let robotsLive = "https://fredpasqua.github.io/test/";
+  let robotsLink = "https://github.com/fredpasqua/test/tree/Company-Directory";
 
   return (
     <div className="App" id="home">
@@ -39,12 +42,12 @@ function App() {
           experiences.{" "}
         </p>
         <ul>
-          <li className="bold-li">Tech</li>
+          <li className="bold-li">Tech Skills</li>
           <li>Full Stack Web Developer Bootcamp completed 2022</li>
           <li>Experienced developing in React and React Native</li>
           <li>Javascript, HTML, JSX, CSS, SCSS</li>
           <li> Node.js, APIs, Axios, Postman, Unit and Integration testing</li>
-          <li>Documentation, Github, MongoDB</li>
+          <li>Documenting, Github, MongoDB</li>
           <li className="bold-li">Related Skills</li>
           <li>Experienced Blogger with SEO Skills</li>
           <li>Attention to Detail</li>
@@ -69,6 +72,7 @@ function App() {
               "Movie API: server-side component of the movies web applications"
             }
           />
+
           <ProjectCard
             className="projectItem"
             projectImage={ReactImage}
@@ -87,6 +91,16 @@ function App() {
             title={"Angular Project"}
             description={
               "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={Robots}
+            githubLink={robotsLink}
+            liveLink={robotsLive}
+            title={"Company Directory"}
+            description={
+              "Search the company directory for your favorite bot. Built with React. Features: sort functions, details modal, responsive"
             }
           />
           <ProjectCard

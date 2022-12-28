@@ -64,17 +64,6 @@ function App() {
         <div className="projectCards">
           <ProjectCard
             className="projectItem"
-            projectImage={Mongodb}
-            githubLink={apiLink}
-            liveLink={apiLive}
-            title={"API"}
-            description={
-              "Movie API: server-side component of the movies web applications"
-            }
-          />
-
-          <ProjectCard
-            className="projectItem"
             projectImage={ReactImage}
             githubLink={myFlixReactLink}
             liveLink={myFlixReactLive}
@@ -101,6 +90,16 @@ function App() {
             title={"Company Directory"}
             description={
               "Search the company directory for your favorite bot. Built with React. Features: sort functions, details modal, responsive"
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={Mongodb}
+            githubLink={apiLink}
+            liveLink={apiLive}
+            title={"API"}
+            description={
+              "Movie API: server-side component of the movies web applications"
             }
           />
           <ProjectCard

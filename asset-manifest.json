@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.e0660139.css",
-    "main.js": "/my-portfolio/static/js/main.e3cb37c6.js",
+    "main.css": "/my-portfolio/static/css/main.d9124d90.css",
+    "main.js": "/my-portfolio/static/js/main.84cec5f6.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/codescreen.jpg": "/my-portfolio/static/media/codescreen.8090e61ca2fa6309bd5a.jpg",
     "static/media/myFlixScreenShot.jpg": "/my-portfolio/static/media/myFlixScreenShot.705cb3e0601240fb4f40.jpg",
@@ -10,16 +10,17 @@
     "static/media/PokedexImage.jpg": "/my-portfolio/static/media/PokedexImage.c4f0bb96a55f3ade0c8e.jpg",
     "static/media/robots.jpg": "/my-portfolio/static/media/robots.c4a4105ed272e64d545f.jpg",
     "static/media/meetapp.jpg": "/my-portfolio/static/media/meetapp.658479b281bf0ff5f744.jpg",
+    "static/media/Fred_Pasqua_Resume.pdf": "/my-portfolio/static/media/Fred_Pasqua_Resume.3f0414499ab42abea178.pdf",
     "static/media/AngularApp.jpg": "/my-portfolio/static/media/AngularApp.1489bd03e0b40ab236c7.jpg",
     "static/media/philly.jpg": "/my-portfolio/static/media/philly.5b34791f2b659afea4e1.jpg",
     "static/media/github-svgrepo-com.svg": "/my-portfolio/static/media/github-svgrepo-com.bf723dcdfddeeeaa01a7fd1c5c9475e7.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.e0660139.css.map": "/my-portfolio/static/css/main.e0660139.css.map",
-    "main.e3cb37c6.js.map": "/my-portfolio/static/js/main.e3cb37c6.js.map",
+    "main.d9124d90.css.map": "/my-portfolio/static/css/main.d9124d90.css.map",
+    "main.84cec5f6.js.map": "/my-portfolio/static/js/main.84cec5f6.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0660139.css",
-    "static/js/main.e3cb37c6.js"
+    "static/css/main.d9124d90.css",
+    "static/js/main.84cec5f6.js"
   ]
 }

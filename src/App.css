@@ -100,8 +100,16 @@ margin-bottom: 50px;
   font-family: 'Share Tech Mono', monospace;
   margin-top: 20px;
 }
+.resume span {
 
 
+  display: none;
+
+
+}.resume{
+  height: fit-content;
+  width: fit-content;
+}
 
 
 

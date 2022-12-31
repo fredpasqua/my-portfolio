@@ -11,8 +11,10 @@ import CodeScreen from "../src/Images/codescreen.jpg";
 import Philly from "../src/Images/philly.jpg";
 import Mongodb from "../src/Images/Mongodb.png";
 import Robots from "../src/Images/robots.jpg";
+import FPResume from "../src/Images/Fred_Pasqua_Resume.pdf";
 import Test from "./about";
 import Menu from "./Navbar";
+
 function App() {
   let myFlixReactLink = "https://github.com/fredpasqua/myflix-v2";
   let myFlixReactLive = "https://fredpasqua.github.io/myflix-v2/#/";
@@ -56,6 +58,11 @@ function App() {
           <li>Professional Sales Experience</li>
           <li>Client focused and business centric</li>
         </ul>
+        <div className="resume">
+          <a href={FPResume} download={FPResume}>
+            *** DOWNLOAD RESUME PDF ***
+          </a>
+        </div>
       </div>
 
       <div id="project">

@@ -41,6 +41,7 @@ ul {
   font-family: 'Share Tech Mono', monospace;
   margin-left: 10%;
   margin-right: 10%;
+  max-width: 450px;
 
 }
 

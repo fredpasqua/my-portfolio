@@ -45,9 +45,8 @@ function App() {
         </p>
         <ul>
           <li className="bold-li">Tech Skills</li>
-          <li>Full Stack Web Developer Bootcamp completed 2022</li>
-          <li>Experienced developing in React and React Native</li>
-          <li>Javascript, HTML, JSX, CSS, SCSS</li>
+          <li>Frameworks: React, Angular and React Native</li>
+          <li>Javascript, HTML, CSS, SCSS</li>
           <li> Node.js, APIs, Axios, Postman, Unit and Integration testing</li>
           <li>Documenting, Github, MongoDB</li>
           <li className="bold-li">Related Skills</li>
@@ -56,7 +55,7 @@ function App() {
           <li>Entrepreneurial Spirit</li>
           <li>Organized and Efficient</li>
           <li>Professional Sales Experience</li>
-          <li>Client focused and business centric</li>
+          <li>Client Focused and Business Centric</li>
         </ul>
         <div className="resume">
           <a href={FPResume} download={FPResume}>
@@ -96,7 +95,7 @@ function App() {
             liveLink={robotsLive}
             title={"Company Directory"}
             description={
-              "Search the company directory for your favorite bot. Built with React. Features: sort functions, details modal, responsive"
+              "Search the company directory for your favorite robot. Built with React. Features: sort functions, details modal, responsive"
             }
           />
           <ProjectCard
@@ -126,7 +125,7 @@ function App() {
             liveLink={meetLive}
             title={"Meet App"}
             description={
-              "This Progressive Web displays web development classes being offered by CareerFoundry close to the users city of choice."
+              "This Progressive Web App (PWA) displays classes being offered by CareerFoundry close to the users city of choice."
             }
           />
           <ProjectCard
@@ -136,7 +135,7 @@ function App() {
             liveLink={spellingLive}
             title={"Say N' Spell"}
             description={
-              "A fun game I programmed for my daughters to help them study their spelling words."
+              "A fun game I programmed for my daughters to aid them in learning their spelling words."
             }
           />
         </div>

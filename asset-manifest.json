@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.4b229925.css",
-    "main.js": "/my-portfolio/static/js/main.1d612609.js",
+    "main.css": "/my-portfolio/static/css/main.6de67779.css",
+    "main.js": "/my-portfolio/static/js/main.7e98791d.js",
     "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/codescreen.jpg": "/my-portfolio/static/media/codescreen.8090e61ca2fa6309bd5a.jpg",
     "static/media/myFlixScreenShot.jpg": "/my-portfolio/static/media/myFlixScreenShot.705cb3e0601240fb4f40.jpg",
@@ -15,12 +15,12 @@
     "static/media/philly.jpg": "/my-portfolio/static/media/philly.5b34791f2b659afea4e1.jpg",
     "static/media/github-svgrepo-com.svg": "/my-portfolio/static/media/github-svgrepo-com.bf723dcdfddeeeaa01a7fd1c5c9475e7.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.4b229925.css.map": "/my-portfolio/static/css/main.4b229925.css.map",
-    "main.1d612609.js.map": "/my-portfolio/static/js/main.1d612609.js.map",
+    "main.6de67779.css.map": "/my-portfolio/static/css/main.6de67779.css.map",
+    "main.7e98791d.js.map": "/my-portfolio/static/js/main.7e98791d.js.map",
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b229925.css",
-    "static/js/main.1d612609.js"
+    "static/css/main.6de67779.css",
+    "static/js/main.7e98791d.js"
   ]
 }

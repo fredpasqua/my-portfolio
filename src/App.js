@@ -57,9 +57,9 @@ function App() {
           <li>Professional Sales Experience</li>
           <li>Client Focused and Business Centric</li>
         </ul>
-        <div className="resume">
+        <div className="neonText">
           <a href={FPResume} download={FPResume}>
-            *** DOWNLOAD RESUME PDF ***
+            *** RESUME.PDF ***
           </a>
         </div>
       </div>

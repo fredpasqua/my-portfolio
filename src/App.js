@@ -1,7 +1,5 @@
 import "./App.css";
-
 import ProjectCard from "./Card";
-import YoutubeEmbed from "./video";
 import ReactImage from "../src/Images/myFlixScreenShot.jpg";
 import AngularImage from "../src/Images/AngularApp.jpg";
 import PokedexImage from "../src/Images/PokedexImage.jpg";
@@ -15,7 +13,6 @@ import Robots from "../src/Images/robots.jpg";
 import FPResume from "../src/Images/Fred_Pasqua_Resume.pdf";
 import Test from "./about";
 import Menu from "./Navbar";
-import ImageSlider from "./Carousel.js";
 
 function App() {
   let myFlixReactLink = "https://github.com/fredpasqua/myflix-v2";
@@ -168,7 +165,6 @@ function App() {
           alt="computer screen with code"
         ></img>
       </div>
-      <ImageSlider />
     </div>
   );
 }

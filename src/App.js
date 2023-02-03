@@ -2,6 +2,7 @@ import "./App.css";
 import ProjectCard from "./Card";
 import ReactImage from "../src/Images/myFlixScreenShot.jpg";
 import AngularImage from "../src/Images/AngularApp.jpg";
+import HornTrax from "../src/Images/Horntrax.jpg";
 import PokedexImage from "../src/Images/PokedexImage.jpg";
 import SpellingGameImage from "../src/Images/SpellingGameImage.jpg";
 import MeetApp from "../src/Images/meetapp.jpg";
@@ -30,6 +31,8 @@ function App() {
   let apiLink = "https://github.com/fredpasqua/movie_api";
   let robotsLive = "https://fredpasqua.github.io/test/";
   let robotsLink = "https://github.com/fredpasqua/test/tree/Company-Directory";
+  let horntraxLink = "https://github.com/fredpasqua/client-loaners_project";
+  let horntraxLive = "https://fredpasqua.github.io/client-loaners_project";
 
   return (
     <div className="App" id="home">
@@ -77,6 +80,16 @@ function App() {
             title={"React.JS Project"}
             description={
               "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
+            }
+          />
+          <ProjectCard
+            className="projectItem"
+            projectImage={HornTrax}
+            githubLink={horntraxLink}
+            liveLink={horntraxLive}
+            title={"Loaner Tracker"}
+            description={
+              "Full stack project, MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
             }
           />
           <ProjectCard

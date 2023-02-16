@@ -12,7 +12,6 @@ import Philly from "../src/Images/philly.jpg";
 import Mongodb from "../src/Images/Mongodb.png";
 import Robots from "../src/Images/robots.jpg";
 import FPResume from "../src/Images/Fred_Pasqua_Resume.pdf";
-import Test from "./about";
 import Menu from "./Navbar";
 
 function App() {

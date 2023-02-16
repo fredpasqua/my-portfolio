@@ -1,8 +1,8 @@
 import { Button, ListGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import "./card.css";
+import "./Card.css";
 
-function ProjectCard(props) {
+export const ProjectCard = (props) => {
   let projectImage = props.projectImage;
   let githubLink = props.githubLink;
   let liveLink = props.liveLink;
@@ -44,6 +44,4 @@ function ProjectCard(props) {
       </Card>
     </>
   );
-}
-
-export default ProjectCard;
+};

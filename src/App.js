@@ -13,6 +13,7 @@ import Mongodb from "../src/Images/Mongodb.png";
 import Robots from "../src/Images/robots.jpg";
 import FPResume from "../src/Images/Fred_Pasqua_Resume.pdf";
 import Menu from "./Navbar";
+import Headerimage from "./Headerimage";
 
 function App() {
   let myFlixReactLink = "https://github.com/fredpasqua/myflix-v2";
@@ -35,7 +36,8 @@ function App() {
 
   return (
     <div className="App" id="home">
-      <Menu></Menu>
+      <Menu />
+      <Headerimage />
       <div className="about" id="about">
         <h2 className="header-title">About</h2>
         <p>

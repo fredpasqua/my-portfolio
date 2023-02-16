@@ -14,26 +14,8 @@ import Robots from "../src/Images/robots.jpg";
 import FPResume from "../src/Images/Fred_Pasqua_Resume.pdf";
 import Menu from "./Navbar";
 import Headerimage from "./Headerimage";
-
+import { URLS } from "./Urls.js";
 function App() {
-  let myFlixReactLink = "https://github.com/fredpasqua/myflix-v2";
-  let myFlixReactLive = "https://fredpasqua.github.io/myflix-v2/#/";
-  let angularLink = "https://github.com/fredpasqua/myFlix-Angular-client";
-  let angularLive =
-    "https://fredpasqua.github.io/myFlix-Angular-client/welcome";
-  let pokeLink = "https://github.com/fredpasqua/Pokedex-js-app";
-  let pokeLive = "https://fredpasqua.github.io/Pokedex-js-app/";
-  let meetLink = "https://github.com/fredpasqua/meet";
-  let meetLive = "https://fredpasqua.github.io/meet/";
-  let spellingLink = "https://github.com/fredpasqua/Spelling-Test-2";
-  let spellingLive = "https://fredsjams.com/spellinggame/index.html";
-  let apiLive = "https://github.com/fredpasqua/movie_api/blob/master/README.md";
-  let apiLink = "https://github.com/fredpasqua/movie_api";
-  let robotsLive = "https://fredpasqua.github.io/test/";
-  let robotsLink = "https://github.com/fredpasqua/test/tree/Company-Directory";
-  let horntraxLink = "https://github.com/fredpasqua/client-loaners_project";
-  let horntraxLive = "https://fredpasqua.github.io/client-loaners_project";
-
   return (
     <div className="App" id="home">
       <Menu />
@@ -73,8 +55,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={ReactImage}
-            githubLink={myFlixReactLink}
-            liveLink={myFlixReactLive}
+            githubLink={URLS.myFlixReactLink}
+            liveLink={URLS.myFlixReactLive}
             title={"React.JS Project"}
             description={
               "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
@@ -83,8 +65,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={HornTrax}
-            githubLink={horntraxLink}
-            liveLink={horntraxLive}
+            githubLink={URLS.horntraxLink}
+            liveLink={URLS.horntraxLive}
             title={"Loaner Tracker"}
             description={
               "Full stack project, MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
@@ -93,8 +75,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={AngularImage}
-            githubLink={angularLink}
-            liveLink={angularLive}
+            githubLink={URLS.angularLink}
+            liveLink={URLS.angularLive}
             title={"Angular Project"}
             description={
               "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
@@ -103,8 +85,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={Robots}
-            githubLink={robotsLink}
-            liveLink={robotsLive}
+            githubLink={URLS.robotsLink}
+            liveLink={URLS.robotsLive}
             title={"Company Directory"}
             description={
               "Search the company directory for your favorite robot. Built with React. Features: sort functions, details modal, responsive"
@@ -113,8 +95,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={Mongodb}
-            githubLink={apiLink}
-            liveLink={apiLive}
+            githubLink={URLS.apiLink}
+            liveLink={URLS.apiLive}
             title={"API"}
             description={
               "Movie API: server-side component of the movies web applications"
@@ -123,8 +105,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={PokedexImage}
-            githubLink={pokeLink}
-            liveLink={pokeLive}
+            githubLink={URLS.pokeLink}
+            liveLink={URLS.pokeLive}
             title={"PokeDex App"}
             description={
               "This PokeDex was created using an existing online API. The app was formatted using Bootstrap and a mobile first design concept."
@@ -133,8 +115,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={MeetApp}
-            githubLink={meetLink}
-            liveLink={meetLive}
+            githubLink={URLS.meetLink}
+            liveLink={URLS.meetLive}
             title={"Meet App"}
             description={
               "This Progressive Web App (PWA) displays classes being offered by CareerFoundry close to the users city of choice."
@@ -143,8 +125,8 @@ function App() {
           <ProjectCard
             className="projectItem"
             projectImage={SpellingGameImage}
-            githubLink={spellingLink}
-            liveLink={spellingLive}
+            githubLink={URLS.spellingLink}
+            liveLink={URLS.spellingLive}
             title={"Say N' Spell"}
             description={
               "A fun game I programmed for my daughters to aid them in learning their spelling words."

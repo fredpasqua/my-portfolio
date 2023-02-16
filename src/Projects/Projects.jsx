@@ -1,6 +1,5 @@
-import React from "react";
 import { ProjectCard } from "../Card/Card";
-import { URLS } from "../Urls.js";
+import { URLS } from "../URLS/Urls.js";
 import ReactImage from "../Images/myFlixScreenShot.jpg";
 import AngularImage from "../Images/AngularApp.jpg";
 import HornTrax from "../Images/Horntrax.jpg";

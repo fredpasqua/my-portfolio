@@ -1,4 +1,4 @@
-import FPResume from "../Images/Fred_Pasqua_Resume.pdf";
+import Resume from "../Images/Fred_Pasqua_Resume.pdf";
 export const About = () => (
   <div className="about" id="about">
     <h2 className="header-title">About</h2>
@@ -22,7 +22,7 @@ export const About = () => (
       <li>Client Focused and Business Centric</li>
     </ul>
     <div className="neonText">
-      <a href={FPResume} download={FPResume}>
+      <a href={Resume} download={Resume}>
         *** RESUME.PDF ***
       </a>
     </div>

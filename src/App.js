@@ -37,9 +37,6 @@ function App() {
   return (
     <div className="App" id="home">
       <Menu></Menu>
-
-      <Test />
-
       <div className="about" id="about">
         <h2 className="header-title">About</h2>
         <p>

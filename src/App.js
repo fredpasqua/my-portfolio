@@ -1,5 +1,5 @@
 import "./App.css";
-import ProjectCard from "./Card";
+import { ProjectCard } from "./Card";
 import ReactImage from "../src/Images/myFlixScreenShot.jpg";
 import AngularImage from "../src/Images/AngularApp.jpg";
 import HornTrax from "../src/Images/Horntrax.jpg";

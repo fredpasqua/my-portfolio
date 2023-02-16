@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.6de67779.css",
-    "main.js": "/my-portfolio/static/js/main.40f282b9.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "main.css": "/my-portfolio/static/css/main.153a77b4.css",
+    "main.js": "/my-portfolio/static/js/main.b6c59110.js",
     "static/media/codescreen.jpg": "/my-portfolio/static/media/codescreen.8090e61ca2fa6309bd5a.jpg",
     "static/media/myFlixScreenShot.jpg": "/my-portfolio/static/media/myFlixScreenShot.705cb3e0601240fb4f40.jpg",
     "static/media/SpellingGameImage.jpg": "/my-portfolio/static/media/SpellingGameImage.8d9b05ab31567fba789e.jpg",
@@ -16,12 +15,11 @@
     "static/media/philly.jpg": "/my-portfolio/static/media/philly.5b34791f2b659afea4e1.jpg",
     "static/media/github-svgrepo-com.svg": "/my-portfolio/static/media/github-svgrepo-com.bf723dcdfddeeeaa01a7fd1c5c9475e7.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.6de67779.css.map": "/my-portfolio/static/css/main.6de67779.css.map",
-    "main.40f282b9.js.map": "/my-portfolio/static/js/main.40f282b9.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.153a77b4.css.map": "/my-portfolio/static/css/main.153a77b4.css.map",
+    "main.b6c59110.js.map": "/my-portfolio/static/js/main.b6c59110.js.map"
   },
   "entrypoints": [
-    "static/css/main.6de67779.css",
-    "static/js/main.40f282b9.js"
+    "static/css/main.153a77b4.css",
+    "static/js/main.b6c59110.js"
   ]
 }

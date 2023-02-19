@@ -37,16 +37,6 @@ export const Projects = () => {
         />
         <ProjectCard
           className="projectItem"
-          projectImage={AngularImage}
-          githubLink={URLS.angularLink}
-          liveLink={URLS.angularLive}
-          title={"Angular Project"}
-          description={
-            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
-          }
-        />
-        <ProjectCard
-          className="projectItem"
           projectImage={Robots}
           githubLink={URLS.robotsLink}
           liveLink={URLS.robotsLive}
@@ -55,6 +45,7 @@ export const Projects = () => {
             "Search the company directory for your favorite robot. Built with React. Features: sort functions, details modal, responsive"
           }
         />
+
         <ProjectCard
           className="projectItem"
           projectImage={Mongodb}
@@ -67,6 +58,17 @@ export const Projects = () => {
         />
         <ProjectCard
           className="projectItem"
+          projectImage={AngularImage}
+          githubLink={URLS.angularLink}
+          liveLink={URLS.angularLive}
+          title={"Angular Project"}
+          description={
+            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more!"
+          }
+        />
+
+        {/* <ProjectCard
+          className="projectItem"
           projectImage={PokedexImage}
           githubLink={URLS.pokeLink}
           liveLink={URLS.pokeLive}
@@ -74,8 +76,8 @@ export const Projects = () => {
           description={
             "This PokeDex was created using an existing online API. The app was formatted using Bootstrap and a mobile first design concept."
           }
-        />
-        <ProjectCard
+        /> */}
+        {/* <ProjectCard
           className="projectItem"
           projectImage={MeetApp}
           githubLink={URLS.meetLink}
@@ -84,7 +86,7 @@ export const Projects = () => {
           description={
             "This Progressive Web App (PWA) displays classes being offered by CareerFoundry close to the users city of choice."
           }
-        />
+        /> */}
         <ProjectCard
           className="projectItem"
           projectImage={SpellingGameImage}

@@ -1,4 +1,4 @@
-import Resume from "../Images/Fred_Pasqua_Resume.pdf";
+import Resume from "../Images/Fred_Pasqua_Resume_2.19.23.pdf";
 export const About = () => (
   <div className="about" id="about">
     <h2 className="header-title">About</h2>

@@ -30,9 +30,9 @@ export const Projects = () => {
           projectImage={HornTrax}
           githubLink={URLS.horntraxLink}
           liveLink={URLS.horntraxLive}
-          title={"Loaner Tracker"}
+          title={"HornTrax"}
           description={
-            "Full stack project, MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
+            "Full stack project built with MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
           }
         />
         <ProjectCard

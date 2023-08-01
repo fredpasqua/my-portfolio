@@ -22,7 +22,7 @@ export const About = () => (
       <li>Client Focused and Business Centric</li>
     </ul>
     <div className="neonText">
-      <a href={Resume} download={Resume}>
+      <a href={Resume} download="Fred_Pasqua_Resume">
         *** RESUME.PDF ***
       </a>
     </div>

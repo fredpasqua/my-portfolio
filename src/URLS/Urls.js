@@ -14,6 +14,6 @@ export const URLS = {
   robotsLink: "https://github.com/fredpasqua/test/tree/Company-Directory",
   horntraxLink:
     "https://github.com/fredpasqua/client-loaners_project/tree/ui-buildout",
-  horntraxLive: "https://fredpasqua.github.io/client-loaners_project",
+  horntraxLive: "https://fredpasqua.github.io/horntrax_v2.0/",
   myFlixReactLink: "https://github.com/fredpasqua/myflix-v2",
 };

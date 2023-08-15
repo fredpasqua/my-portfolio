@@ -8,7 +8,7 @@ import SpellingGameImage from "../Images/SpellingGameImage.jpg";
 import Mongodb from "../Images/Mongodb.png";
 import Robots from "../Images/robots.jpg";
 import MeetApp from "../Images/meetapp.jpg";
-
+import FredsJams from "../Images/fredsjams.png";
 export const Projects = () => {
   return (
     <div id="project">
@@ -33,6 +33,16 @@ export const Projects = () => {
           title={"HornTrax"}
           description={
             "Full stack project built with MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
+          }
+        />
+        <ProjectCard
+          className="projectItem"
+          projectImage={FredsJams}
+          githubLink={URLS.fredsJamsLink}
+          liveLink={URLS.fredsJamsLive}
+          title={"Front End Example"}
+          description={
+            "FredsJams is a webpage dedicated to music and related gear reviews - under construction"
           }
         />
         <ProjectCard

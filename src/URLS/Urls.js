@@ -15,4 +15,6 @@ export const URLS = {
   horntraxLink: "https://github.com/fredpasqua/horntrax_v2.0",
   horntraxLive: "https://fredpasqua.github.io/horntrax_v2.0/",
   myFlixReactLink: "https://github.com/fredpasqua/myflix-v2",
+  fredsJamsLink: "https://github.com/fredpasqua/fredsjams_client_v2/",
+  fredsJamsLive: "https://fredpasqua.github.io/fredsjams_client_v2/",
 };

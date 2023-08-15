@@ -1,13 +1,14 @@
 import { ProjectCard } from "../Card/Card";
+import { NewCard } from "../NewCard/NewCard.jsx";
 import { URLS } from "../URLS/Urls.js";
 import ReactImage from "../Images/myFlixScreenShot.jpg";
 import AngularImage from "../Images/AngularApp.jpg";
 import HornTrax from "../Images/Horntrax.jpg";
-import PokedexImage from "../Images/PokedexImage.jpg";
+
 import SpellingGameImage from "../Images/SpellingGameImage.jpg";
 import Mongodb from "../Images/Mongodb.png";
 import Robots from "../Images/robots.jpg";
-import MeetApp from "../Images/meetapp.jpg";
+
 import FredsJams from "../Images/fredsjams.png";
 export const Projects = () => {
   return (

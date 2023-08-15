@@ -1,8 +1,8 @@
 import { Button, ListGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import "./Card.css";
+import "./NewCard.css";
 
-export const ProjectCard = (props) => {
+export const NewCard = (props) => {
   let projectImage = props.projectImage;
   let githubLink = props.githubLink;
   let liveLink = props.liveLink;
@@ -16,7 +16,17 @@ export const ProjectCard = (props) => {
           <Card.Text className="description" style={{ color: "black" }}>
             {description}
           </Card.Text>
-          <Card.Img className="projectImage" variant="top" src={projectImage} />
+          <Card.Text>
+            {" "}
+            <div className="webViewer">
+              <iframe
+                title="Web Viewer"
+                style={{ height: "448px", width: "350px" }}
+                src="https://fredpasqua.github.io/fredsjams_client_v2/"
+              ></iframe>
+            </div>
+          </Card.Text>{" "}
+          className="projectImage" variant="top" src={projectImage} />
           <ListGroup.Item className="projButtons">
             <Button
               variant="info"

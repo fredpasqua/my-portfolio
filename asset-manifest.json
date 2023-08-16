@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.153a77b4.css",
-    "main.js": "/my-portfolio/static/js/main.efda3ccf.js",
+    "main.css": "/my-portfolio/static/css/main.e2815f17.css",
+    "main.js": "/my-portfolio/static/js/main.616b0c97.js",
     "static/media/codescreen.jpg": "/my-portfolio/static/media/codescreen.8090e61ca2fa6309bd5a.jpg",
     "static/media/myFlixScreenShot.jpg": "/my-portfolio/static/media/myFlixScreenShot.705cb3e0601240fb4f40.jpg",
     "static/media/fredsjams.png": "/my-portfolio/static/media/fredsjams.ba39688748b52ed5b70b.png",
     "static/media/Horntrax.jpg": "/my-portfolio/static/media/Horntrax.c7e845d3256b4ef0e3a9.jpg",
     "static/media/SpellingGameImage.jpg": "/my-portfolio/static/media/SpellingGameImage.8d9b05ab31567fba789e.jpg",
-    "static/media/PokedexImage.jpg": "/my-portfolio/static/media/PokedexImage.c4f0bb96a55f3ade0c8e.jpg",
     "static/media/robots.jpg": "/my-portfolio/static/media/robots.c4a4105ed272e64d545f.jpg",
     "static/media/Mongodb.png": "/my-portfolio/static/media/Mongodb.eab3ceeba3f5ac910015.png",
-    "static/media/meetapp.jpg": "/my-portfolio/static/media/meetapp.658479b281bf0ff5f744.jpg",
     "static/media/Fred_Pasqua_Resume_2.19.23.pdf": "/my-portfolio/static/media/Fred_Pasqua_Resume_2.19.23.8bd19ee46518b4eaef66.pdf",
     "static/media/AngularApp.jpg": "/my-portfolio/static/media/AngularApp.1489bd03e0b40ab236c7.jpg",
     "static/media/philly.jpg": "/my-portfolio/static/media/philly.5b34791f2b659afea4e1.jpg",
     "static/media/github-svgrepo-com.svg": "/my-portfolio/static/media/github-svgrepo-com.bf723dcdfddeeeaa01a7fd1c5c9475e7.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.153a77b4.css.map": "/my-portfolio/static/css/main.153a77b4.css.map",
-    "main.efda3ccf.js.map": "/my-portfolio/static/js/main.efda3ccf.js.map"
+    "main.e2815f17.css.map": "/my-portfolio/static/css/main.e2815f17.css.map",
+    "main.616b0c97.js.map": "/my-portfolio/static/js/main.616b0c97.js.map"
   },
   "entrypoints": [
-    "static/css/main.153a77b4.css",
-    "static/js/main.efda3ccf.js"
+    "static/css/main.e2815f17.css",
+    "static/js/main.616b0c97.js"
   ]
 }

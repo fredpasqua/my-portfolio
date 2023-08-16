@@ -1,5 +1,4 @@
 import { ProjectCard } from "../Card/Card";
-import { NewCard } from "../NewCard/NewCard.jsx";
 import { URLS } from "../URLS/Urls.js";
 import ReactImage from "../Images/myFlixScreenShot.jpg";
 import AngularImage from "../Images/AngularApp.jpg";

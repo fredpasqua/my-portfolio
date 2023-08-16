@@ -5,8 +5,8 @@
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
-    max-height: 400px;
-    max-width: 275px; 
+    max-height: 450px;
+    max-width: 300px; 
     border: solid 1px rgb(0, 13, 111);
     box-shadow: 3px 6px 9px 0px rgba(0,0,0,0.75)
 }
@@ -15,8 +15,9 @@
     margin: 10px;
 }
 .custom-btn {
-    background: #6385f4;
+    background: #1c4dee;
     color: white;
+    font-size: larger;
     border: 2px solid #93dcf7;
     border-radius: 3px;
     padding: 5px 10px;
@@ -29,8 +30,8 @@
     background-color: #63cdf4;
     padding: 5px;
     margin: 10px;
-    max-width: 50%;
-    min-width: 370px;
+    max-width: 90vw;
+    min-width: 400px;
     border: none;
     font-size: large;
     box-shadow: 3px 6px 9px 0px rgba(0,0,0,0.75);

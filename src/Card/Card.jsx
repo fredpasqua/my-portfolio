@@ -3,11 +3,8 @@ import Card from "react-bootstrap/Card";
 import "./Card.css";
 
 export const ProjectCard = (props) => {
-  let projectImage = props.projectImage;
-  let githubLink = props.githubLink;
-  let liveLink = props.liveLink;
-  let title = props.title;
-  let description = props.description;
+
+  const { projectImage, githubLink, liveLink, title, description } = props;
   return (
     <>
       <Card className="card" style={{ width: "25%" }}>

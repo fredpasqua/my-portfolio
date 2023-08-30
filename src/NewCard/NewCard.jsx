@@ -1,3 +1,6 @@
+/* Potential New Component for live loading of demo webpages
+----under construction-------
+*/
 import { Button, ListGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import "./NewCard.css";

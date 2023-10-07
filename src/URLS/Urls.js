@@ -17,4 +17,6 @@ export const URLS = {
   myFlixReactLink: "https://github.com/fredpasqua/myflix-v2",
   fredsJamsLink: "https://github.com/fredpasqua/fredsjams_client_v2/",
   fredsJamsLive: "https://fredpasqua.github.io/fredsjams_client_v2/",
+  clientSampleLive: "https://fredpasqua.github.io/webpage-template/",
+  clientSampleLink: "https://github.com/fredpasqua/webpage-template",
 };

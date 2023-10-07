@@ -3,7 +3,7 @@ import { URLS } from "../URLS/Urls.js";
 import ReactImage from "../Images/myFlixScreenShot.jpg";
 import AngularImage from "../Images/AngularApp.jpg";
 import HornTrax from "../Images/Horntrax.jpg";
-
+import ClientImage from "../Images/clientside.jpg";
 import SpellingGameImage from "../Images/SpellingGameImage.jpg";
 import Mongodb from "../Images/Mongodb.png";
 import Robots from "../Images/robots.jpg";
@@ -43,6 +43,16 @@ export const Projects = () => {
           title={"Front End Example"}
           description={
             "FredsJams is a webpage dedicated to music and related gear reviews - under construction"
+          }
+        />
+        <ProjectCard
+          className="projectItem"
+          projectImage={ClientImage}
+          githubLink={URLS.clientSampleLink}
+          liveLink={URLS.clientSampleLive}
+          title={"Front End Example"}
+          description={
+            "City Tours is an example of my landing page work. CSS styling, responsive design, built with React"
           }
         />
         <ProjectCard

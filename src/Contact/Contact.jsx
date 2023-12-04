@@ -10,8 +10,6 @@ export const Contact = () => {
         alt="philadelphia sky line"
       ></img>
       <p>Fred Pasqua</p>
-      <p>Haddon Heights</p>
-      <p>New Jersey</p>
       <p>
         Tel <a href="tel:6098765098">(609) 876-5098</a>
       </p>

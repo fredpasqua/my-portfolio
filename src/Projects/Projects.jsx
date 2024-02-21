@@ -18,21 +18,20 @@ export const Projects = () => {
         <ProjectCard
           className="projectItem"
           projectImage={ReactImage}
-          githubLink={null}
+          githubLink={URLS.myFlixReactLink}
           liveLink={URLS.route38Link}
-          title={"Wordpress Website"}
+          title={"React.JS Project"}
           description={
-            "Responsive web site built with Word Press from a designer PSD document"
+            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
           }
         />
         <ProjectCard
           className="projectItem"
           projectImage={Route38}
-          githubLink={URLS.myFlixReactLink}
-          liveLink={URLS.myFlixReactLive}
-          title={"React.JS Project"}
+          liveLink={URLS.route38Link}
+          title={"Word Press Site"}
           description={
-            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
+            "Freelance Word Press Website. I was hired to create a responsive design working from the agency's PSD document."
           }
         />
         <ProjectCard

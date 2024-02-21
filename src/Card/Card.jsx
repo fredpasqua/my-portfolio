@@ -25,14 +25,16 @@ export const ProjectCard = (props) => {
             </Button>
           </ListGroup.Item>
           <ListGroup.Item className="projButtons">
-            <Button
-              className="custom-btn"
-              variant="info"
-              href={githubLink}
-              target="blank"
-            >
-              GitHub
-            </Button>
+            {githubLink != null ? (
+              <Button
+                className="custom-btn"
+                variant="info"
+                href={githubLink}
+                target="blank"
+              >
+                GitHub
+              </Button>
+            ) : null}
           </ListGroup.Item>
         </Card.Body>
       </Card>

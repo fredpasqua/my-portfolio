@@ -19,4 +19,5 @@ export const URLS = {
   fredsJamsLive: "https://fredpasqua.github.io/fredsjams_client_v2/",
   clientSampleLive: "https://fredpasqua.github.io/webpage-template/",
   clientSampleLink: "https://github.com/fredpasqua/webpage-template",
+  route38Link: "https://www.route38dental.com",
 };

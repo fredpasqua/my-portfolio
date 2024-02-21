@@ -7,7 +7,7 @@ import ClientImage from "../Images/clientside.jpg";
 import SpellingGameImage from "../Images/SpellingGameImage.jpg";
 import Mongodb from "../Images/Mongodb.png";
 import Robots from "../Images/robots.jpg";
-
+import Route38 from "../Images/ROUTE38DENTAL.jpg";
 import FredsJams from "../Images/fredsjams.png";
 export const Projects = () => {
   return (
@@ -18,6 +18,16 @@ export const Projects = () => {
         <ProjectCard
           className="projectItem"
           projectImage={ReactImage}
+          githubLink={null}
+          liveLink={URLS.route38Link}
+          title={"Wordpress Website"}
+          description={
+            "Responsive web site built with Word Press from a designer PSD document"
+          }
+        />
+        <ProjectCard
+          className="projectItem"
+          projectImage={Route38}
           githubLink={URLS.myFlixReactLink}
           liveLink={URLS.myFlixReactLive}
           title={"React.JS Project"}

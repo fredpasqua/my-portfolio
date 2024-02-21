@@ -19,7 +19,7 @@ export const Projects = () => {
           className="projectItem"
           projectImage={ReactImage}
           githubLink={URLS.myFlixReactLink}
-          liveLink={URLS.route38Link}
+          liveLink={URLS.myFlixReactLive}
           title={"React.JS Project"}
           description={
             "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "

@@ -17,16 +17,6 @@ export const Projects = () => {
       <div className="projectCards">
         <ProjectCard
           className="projectItem"
-          projectImage={ReactImage}
-          githubLink={URLS.myFlixReactLink}
-          liveLink={URLS.myFlixReactLive}
-          title={"React.JS Project"}
-          description={
-            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
-          }
-        />
-        <ProjectCard
-          className="projectItem"
           projectImage={Route38}
           liveLink={URLS.route38Link}
           title={"Word Press Site"}
@@ -41,7 +31,7 @@ export const Projects = () => {
           liveLink={URLS.horntraxLive}
           title={"HornTrax"}
           description={
-            "Full stack project built with MERN stack, track and update inventory! USERNAME: testtest PASSWORD: password"
+            "Full stack project built with MERN stack, Band Room inventory tracker!"
           }
         />
         <ProjectCard
@@ -62,6 +52,16 @@ export const Projects = () => {
           title={"Front End Example"}
           description={
             "City Tours is an example of my landing page work. CSS styling, responsive design, built with React"
+          }
+        />
+        <ProjectCard
+          className="projectItem"
+          projectImage={ReactImage}
+          githubLink={URLS.myFlixReactLink}
+          liveLink={URLS.myFlixReactLive}
+          title={"React.JS Project"}
+          description={
+            "myFlix Movie App: Browse movies, select your favorites, learn about directors and more! Built with the MERN stack. "
           }
         />
         <ProjectCard

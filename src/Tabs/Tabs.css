@@ -1,0 +1,55 @@
+.objectSelectorList {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    list-style-type: none;
+    padding: 20px;
+
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.objectSelectorList ul {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.text {
+
+    color: white;
+    font-family: Arial;
+
+
+}
+
+.selectorButton {
+    width: 15vw;
+    border: 1px solid #2b2a2a;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 11px 12px 0px 0px;
+    -webkit-border-radius: 11px 12px 0px 0px;
+    -moz-border-radius: 11px 12px 0px 0px;
+}
+
+.selectorButton:hover {
+    transition: 300ms;
+    background-color: #242323;
+    text-decoration: underline;
+}
+
+.selectorButton:active {
+
+    background-color: black;
+    text-decoration: bold;
+}
+
+.selectorButton:focus {
+    background-color: #242323;
+    border: 2px cyan solid;
+}

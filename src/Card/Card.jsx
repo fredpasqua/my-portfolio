@@ -1,12 +1,12 @@
 import { Button, ListGroup } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import "./Card.css";
-
+import Tabs from "../Tabs/Tabs";
 export const ProjectCard = (props) => {
-
   const { projectImage, githubLink, liveLink, title, description } = props;
   return (
     <>
+      <Tabs></Tabs>
       <Card className="card" style={{ width: "25%" }}>
         <Card.Body>
           <Card.Title style={{ color: "black" }}>{title}</Card.Title>

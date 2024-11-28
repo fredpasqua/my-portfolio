@@ -46,3 +46,17 @@
     font-family: 'Share Tech Mono', monospace;
  }
 
+.secondCard {
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    height: auto;
+    background-color: red;
+}
+
+.secondCard {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+
+}

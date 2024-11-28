@@ -24,8 +24,9 @@ a {
   justify-content:center;
 }
 
-#project{
+#project {
   border: 5px solid #93dcf7;
+  border-top: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +63,7 @@ ul {
 }
 .contact {
   border: 5px solid #93dcf7;
-  
+  border-top: 0px;
    display: flex;
    flex-direction: column;
    align-items: center;

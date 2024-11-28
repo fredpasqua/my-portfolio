@@ -4,6 +4,7 @@ import Philly from "../Images/philly.jpg";
 export const Contact = () => {
   return (
     <div className="contact" id="contact">
+      <h2 className="header-title">Contact</h2>
       <img
         className="contactImage"
         src={Philly}

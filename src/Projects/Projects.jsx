@@ -14,6 +14,7 @@ export const Projects = () => {
   return (
     //Project header tabs to select the cards props from cardProps
     <div id="project">
+      <h2 className="header-title">Projects</h2>
       {/* cards */}
       <div className="projectCards">
         <ProjectCard

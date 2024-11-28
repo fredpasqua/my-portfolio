@@ -6,6 +6,7 @@ function Headerimage() {
   return (
     <img
       className="headertop"
+      style={{ width: "100vw" }}
       src={deskImage}
       alt="desk top with computer and coffee cup"
     />

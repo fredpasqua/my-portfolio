@@ -56,6 +56,29 @@ export const ProjectCard = (props) => {
               <Card.Text className="description" style={{ color: "black" }}>
                 {description}
               </Card.Text>
+
+              <ListGroup.Item className="projButtons">
+                <Button
+                  variant="info"
+                  href={liveLink}
+                  taget="blank"
+                  className="custom-btn"
+                >
+                  Live Project
+                </Button>
+              </ListGroup.Item>
+              <ListGroup.Item className="projButtons">
+                {githubLink != null ? (
+                  <Button
+                    className="custom-btn"
+                    variant="info"
+                    href={githubLink}
+                    target="blank"
+                  >
+                    GitHub
+                  </Button>
+                ) : null}
+              </ListGroup.Item>
             </Card.Body>
           </Card>
         ) : (

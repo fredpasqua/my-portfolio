@@ -1,5 +1,5 @@
 import React from "react";
-import deskImage from "./Images/officeDesk.jpg";
+import deskImage from "./Images/codescreen.jpg";
 
 function Headerimage() {
   //TODO: styling for multiple screens

@@ -11,8 +11,9 @@ a {
   text-decoration: none;
 }
 .headertop {
-
-  height: auto;
+  border: 5px solid #93dcf7;
+    border-bottom-width: 0px;
+    height: 20vh;
     object-fit: cover;
   }
 .projectCards {

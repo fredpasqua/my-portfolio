@@ -4,15 +4,17 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 body {
-  margin-top: 60px;
+  margin-top: 55px;
 }
 a {
   color: white;
   text-decoration: none;
 }
 .headertop {
+padding: 0px;
+  margin: 0px;
   border: 5px solid #93dcf7;
-    border-bottom-width: 0px;
+    border-bottom: 0px;
     height: 20vh;
     object-fit: cover;
   }

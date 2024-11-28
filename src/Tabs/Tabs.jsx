@@ -5,10 +5,10 @@ function Tabs() {
   return (
     <ul className="objectSelectorList">
       <li className="text">
-        <button className="selectorButton">Projects </button>
+        <button className="selectorButton">Proj.</button>
       </li>{" "}
       <li className="text">
-        <button class="selectorButton">Technology</button>
+        <button class="selectorButton">Tech.</button>
       </li>{" "}
       <li className="text">
         <button class="selectorButton">Notes</button>

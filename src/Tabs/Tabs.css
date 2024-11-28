@@ -1,15 +1,16 @@
 .objectSelectorList {
-
+    position: relative;
+        left: -35px;
+        top: 20px;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: left;
     list-style-type: none;
-    padding: 20px;
-
-    width: 80vw;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0px;
+        margin: 10px 0px 0px 0px;
+        max-width: 450px;
+        overflow: hidden;
 }
 
 .objectSelectorList ul {
@@ -19,20 +20,21 @@
 }
 
 .text {
-
-    color: white;
+    font-size: 18px;
     font-family: Arial;
 
 
 }
 
 .selectorButton {
-    width: 15vw;
+    
     border: 1px solid #2b2a2a;
     background-color: black;
     color: white;
     padding: 10px;
-    border-radius: 11px 12px 0px 0px;
+    width: 73px;
+    
+        border-radius: 6px 4px 0px 0px;
     -webkit-border-radius: 11px 12px 0px 0px;
     -moz-border-radius: 11px 12px 0px 0px;
 }

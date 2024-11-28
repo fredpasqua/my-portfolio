@@ -1,5 +1,6 @@
 import { ProjectCard } from "../Card/Card";
 import { URLS } from "../URLS/Urls.js";
+import "./Projects.css";
 import ReactImage from "../Images/myFlixScreenShot.jpg";
 import AngularImage from "../Images/AngularApp.jpg";
 import HornTrax from "../Images/Horntrax.jpg";
@@ -11,9 +12,20 @@ import Route38 from "../Images/ROUTE38DENTAL.jpg";
 import FredsJams from "../Images/fredsjams.png";
 export const Projects = () => {
   return (
+    //Project header tabs to select the cards props from cardProps
     <div id="project">
-      <h2 className="header-title">My Work</h2>
-
+      <ul className="objectSelectorList">
+        <li className="text">
+          <button className="selectorButton">Projects </button>
+        </li>{" "}
+        <li className="text">
+          <button class="selectorButton">Technology</button>
+        </li>{" "}
+        <li className="text">
+          <button class="selectorButton">Notes</button>
+        </li>{" "}
+      </ul>{" "}
+      {/* cards */}
       <div className="projectCards">
         <ProjectCard
           className="projectItem"

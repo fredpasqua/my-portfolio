@@ -43,6 +43,7 @@
     transition: 300ms;
     background-color: #242323;
     text-decoration: underline;
+    border: 2px cyan solid;
 }
 
 .selectorButton:active {
@@ -53,5 +54,5 @@
 
 .selectorButton:focus {
     background-color: #242323;
-    border: 2px cyan solid;
+
 }

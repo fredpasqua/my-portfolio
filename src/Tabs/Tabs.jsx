@@ -10,22 +10,12 @@ function Tabs({ handleClick }) {
         </button>
       </li>{" "}
       <li className="text">
-        <button
-          //TODO: handle mobile screen interaction
-          onMouseOver={() => handleClick(2)}
-          onTouchStart={() => handleClick(2)}
-          onMouseLeave={() => handleClick(1)}
-          class="selectorButton"
-        >
+        <button onMouseOver={() => handleClick(2)} class="selectorButton">
           Notes
         </button>
       </li>{" "}
       <li className="text">
-        <button
-          onMouseOver={() => handleClick(3)}
-          onMouseLeave={() => handleClick(1)}
-          class="selectorButton"
-        >
+        <button onMouseOver={() => handleClick(3)} class="selectorButton">
           Tech
         </button>
       </li>{" "}

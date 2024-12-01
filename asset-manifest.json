@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5766da97.css",
-    "main.js": "/my-portfolio/static/js/main.5f4186f9.js",
+    "main.css": "/my-portfolio/static/css/main.c6ed1187.css",
+    "main.js": "/my-portfolio/static/js/main.da6af59a.js",
+    "static/media/fred.png": "/my-portfolio/static/media/fred.11ca36dc03bb1ddb570d.png",
     "static/media/clientside.jpg": "/my-portfolio/static/media/clientside.3b9d727e5c504fb46037.jpg",
     "static/media/myFlixScreenShot.jpg": "/my-portfolio/static/media/myFlixScreenShot.705cb3e0601240fb4f40.jpg",
     "static/media/fredsjams.png": "/my-portfolio/static/media/fredsjams.ba39688748b52ed5b70b.png",
@@ -16,11 +17,11 @@
     "static/media/philly.jpg": "/my-portfolio/static/media/philly.5b34791f2b659afea4e1.jpg",
     "static/media/github-svgrepo-com.svg": "/my-portfolio/static/media/github-svgrepo-com.bf723dcdfddeeeaa01a7fd1c5c9475e7.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.5766da97.css.map": "/my-portfolio/static/css/main.5766da97.css.map",
-    "main.5f4186f9.js.map": "/my-portfolio/static/js/main.5f4186f9.js.map"
+    "main.c6ed1187.css.map": "/my-portfolio/static/css/main.c6ed1187.css.map",
+    "main.da6af59a.js.map": "/my-portfolio/static/js/main.da6af59a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5766da97.css",
-    "static/js/main.5f4186f9.js"
+    "static/css/main.c6ed1187.css",
+    "static/js/main.da6af59a.js"
   ]
 }

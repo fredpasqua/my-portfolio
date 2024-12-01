@@ -1,7 +1,7 @@
 import "./styles.css";
 import "animate.css";
 import { useInView } from "react-intersection-observer";
-import girl from "../Images/girl.png";
+import fred from "../Images/fred.png";
 
 export default function Banner() {
   const { ref, inView } = useInView({
@@ -36,7 +36,7 @@ export default function Banner() {
                   ? "animate__animated animate__fadeInRight brightness"
                   : ""
               }
-              src={girl}
+              src={fred}
               alt="portrait of Fred"
             />
           </div>

@@ -70,20 +70,15 @@
         max-width: 50%;
     }
 
-    .image-element {
-        max-width: 50px !important;
-        bottom: 0;
+                                .image-element img {
         position: relative;
-        left: 0px;
-    }
-
-    .image-element img {
-        max-height: 65%;
-        position: relative;
-        top: 35%;
-        right: -10px;
+        max-height: 90%;
+            top: 10%;
+            bottom: 0;
+            right: 5px;
         transition: all 0.5s ease-out;
     }
+
 
     @media (min-width: 576px) {
         .text-element h2 {
@@ -128,10 +123,9 @@
 
             .image-element img {
                 position: relative;
-                max-height: 100%;
-                top: 0;
+                top: 10;
                 bottom: 0;
-                left: 10%;
+                left: 20%;
                 transition: all 0.5s ease-out;
             }
         }
@@ -163,7 +157,6 @@
                 max-height: 110%;
                 top: -10%;
                 bottom: 0;
-                left: 15%;
                 transition: all 0.5s ease-out;
             }
         }
@@ -193,13 +186,12 @@
                 font-weight: 800;
             }
 
-            .image-element img {
-                max-height: 120%;
-                left: 0;
-                top: -20%;
-                bottom: 0;
+                 .image-element img {
                 position: relative;
                 object-fit: contain;
+                max-height: 110%;
+                    top: -10%;
+                    bottom: 0;
             }
         }
     }

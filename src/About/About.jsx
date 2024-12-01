@@ -21,12 +21,11 @@ export const About = () => (
           <li>Project Management</li>
         </ul>
       </div>
-    
     </div>
 
-    <div className="neonText">
+    <div className="resume">
       <a href={Resume} download="Fred_Pasqua_Resume">
-       Download Resume
+        Download Resume
       </a>
     </div>
   </div>

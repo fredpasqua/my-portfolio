@@ -68,10 +68,13 @@ padding: 0px;
   margin: 10px;
   border-radius: 10px;
 }
-.skills {
+.skills  {
   margin: 0px;
-  padding: 0px;
+  padding: 28px;
   text-align: left;
+  background-color: rgba(37, 37, 37, 0.673);
+  max-width: 90vw;
+    min-width: 200px;
   
 }
 .about p,
@@ -81,12 +84,8 @@ li {
  padding: 0px;
  margin: 0px;
 }
-.textSkillz {
-  text-align: left !important;
-  color: red;
-}
-lh  {
 
+lh  {
   font-size: 32px;
 }
 .contact {
@@ -136,14 +135,12 @@ margin-bottom: 50px;
   margin-top: 20px;
 }
 .resume span {
-
-
   display: none;
-
-
-}.resume{
+}
+.resume{
   height: fit-content;
   width: fit-content;
+  padding: 20px;
 }
 
 

@@ -6,6 +6,9 @@
 body {
   margin-top: 55px;
 }
+/* body * {
+  border: 1px red solid;
+} */
 a {
   color: white;
   text-decoration: none;
@@ -34,24 +37,7 @@ padding: 0px;
   align-items: center;
   font-family: 'Share Tech Mono', monospace;
 }
-ul {
-  display: flex;
-  flex-direction: column;
-  margin-right: 2rem;
- 
-  color: #93dcf7;
-  list-style-type: none;
-  font-family: 'Share Tech Mono', monospace;
-}
-.about p, li{
-  font-size: 20px;
-  color: #93dcf7;
-  font-family: 'Share Tech Mono', monospace;
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 450px;
 
-}
 
 .about {
  border: 5px solid #93dcf7;
@@ -62,6 +48,38 @@ ul {
   font-family: 'Share Tech Mono', monospace;
   padding:10px;
  
+}
+.about-lists {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+ul {
+
+  margin-right: 2rem;
+
+  color: #93dcf7;
+  list-style-type: none;
+  font-family: 'Share Tech Mono', monospace;
+}
+.skills {
+  margin: 0px;
+  padding: 0px;
+  
+}
+.about p,
+
+li {
+ text-align: left;
+ padding: 0px;
+ margin: 0px;
+}
+
+lh {
+  text-align: left;
+  font-size: 28px;
 }
 .contact {
   border: 5px solid #93dcf7;

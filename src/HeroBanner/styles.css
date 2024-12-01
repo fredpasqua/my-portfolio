@@ -1,11 +1,13 @@
 .parent {
     display: flex;
     justify-content: space-around;
-    height: 400px;
+    align-items: center;
+    height: 350px;
     width: 100vw;
     position: relative;
     background-color: rgba(0, 0, 0, 0.649);
     border: 5px solid #93dcf7;
+    border-bottom-width: 0px;
 }
 
 .background {
@@ -45,11 +47,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 
-@media (min-width: 360px) {
-    .text-element {
-        margin: 5px;
-        padding-left: 0;
-    }
+@media (min-width: 300px) {
 
     .parent {
         margin-top: 0;
@@ -68,15 +66,23 @@
     .text-element {
         margin-top: 40px;
         max-width: 50%;
+        justify-content: left;
     }
 
-                                .image-element img {
+    .image-element img {
         position: relative;
-        max-height: 90%;
-            top: 10%;
-            bottom: 0;
-            right: 5px;
+        height: 150px;
+        width: 150px;
+        top: 10%;
+        bottom: 0;
+        right: 5px;
         transition: all 0.5s ease-out;
+            object-fit: contain;
+            border: 5px #93dcf7 solid;
+                border-radius: 50%;
+                padding-top: 10px;
+                background-color: white;
+            
     }
 
 
@@ -93,16 +99,17 @@
             font-size: 20px;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: left;
         }
 
         .image-element img {
             position: relative;
-            max-height: 90%;
-            top: 10%;
+            height: 200px;
+            width: 200px;
             bottom: 0;
-            right: 5%;
+
             transition: all 0.5s ease-out;
+         
         }
 
         /* Medium devices (tablets, 768px and up) */
@@ -112,21 +119,23 @@
             }
 
             .text-element h2 {
-                font-size: 42px;
+                font-size: 32px;
             }
 
             .text-element p {
                 font-size: 19px;
-                font-weight: 800;
-                text-align: left;
+                font-weight: 800;    
             }
-
+            .text-element {
+                justify-content: left;
+            }
             .image-element img {
                 position: relative;
                 top: 10;
                 bottom: 0;
                 left: 20%;
                 transition: all 0.5s ease-out;
+
             }
         }
 
@@ -137,13 +146,13 @@
             }
 
             .text-element h2 {
-                font-size: 50px;
+                font-size:32px;
             }
 
             .text-element {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: left;
             }
 
             .text-element p {
@@ -153,11 +162,11 @@
             }
 
             .image-element img {
-                position: relative;
-                max-height: 110%;
-                top: -10%;
+             
                 bottom: 0;
                 transition: all 0.5s ease-out;
+          
+
             }
         }
 
@@ -165,11 +174,9 @@
         @media (min-width: 1200px) {
             .text-element {
                 position: relative;
-                left: -30px;
-
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: left;
             }
 
 
@@ -186,12 +193,12 @@
                 font-weight: 800;
             }
 
-                 .image-element img {
+            .image-element img {
                 position: relative;
                 object-fit: contain;
-                max-height: 110%;
-                    top: -10%;
-                    bottom: 0;
+                
+                bottom: 0;
+
             }
         }
     }

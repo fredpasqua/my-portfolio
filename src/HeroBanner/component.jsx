@@ -13,6 +13,18 @@ export default function Banner() {
     <>
       <div className="background">
         <div className="parent">
+          <div className="image-element">
+            <img
+              ref={ref}
+              className={
+                inView
+                  ? "animate__animated animate__fadeInRight brightness"
+                  : ""
+              }
+              src={fred}
+              alt="portrait of Fred"
+            />
+          </div>
           <div
             ref={ref}
             className={`text-element ${
@@ -27,18 +39,6 @@ export default function Banner() {
                 clean code and excellent user experiences.
               </p>
             </section>
-          </div>
-          <div className="image-element">
-            <img
-              ref={ref}
-              className={
-                inView
-                  ? "animate__animated animate__fadeInRight brightness"
-                  : ""
-              }
-              src={fred}
-              alt="portrait of Fred"
-            />
           </div>
         </div>
       </div>

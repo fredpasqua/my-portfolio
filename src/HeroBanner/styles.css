@@ -1,0 +1,207 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 100vw;
+    position: relative;
+   
+
+}
+
+.background {
+
+        border: 5px solid #93dcf7;
+            border-bottom-width: 0px;
+}
+
+.text-element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 40%;
+}
+
+.text-element h2 {
+    color: #93dcf7;
+    text-shadow: 2px 3px rgba(36, 36, 36, 0.4);
+}
+
+.text-element p {
+
+    color: #93dcf7;
+    font-family: 'Share Tech Mono', monospace;
+
+    padding: 0 0 0 0px;
+}
+
+.image-element {
+    min-width: 25%;
+    bottom: 0;
+    transition: all 0.5s ease-out;
+}
+
+.brightness {
+    filter: brightness(.8);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 300px) {
+
+    .parent {
+        margin-top: 0;
+    }
+
+    .text-element h2 {
+        font-size: 28px;
+
+    }
+
+    .text-element p {
+
+        font-size: 18px;
+    }
+
+    .text-element {
+        margin-top: 40px;
+        max-width: 50%;
+        justify-content: left;
+    }
+
+    .image-element img {
+        position: relative;
+        height: 150px;
+        width: 150px;
+        top: 10%;
+        bottom: 0;
+        right: 5px;
+        transition: all 0.5s ease-out;
+            object-fit: contain;
+            border: 5px #93dcf7 solid;
+                border-radius: 50%;
+                padding-top: 10px;
+                background-color: rgba(207, 242, 249, 0.497);
+            
+    }
+
+
+    @media (min-width: 576px) {
+        .text-element h2 {
+            text-align: left;
+            font-size: 32px;
+            padding: 0;
+
+        }
+
+        .text-element {
+            margin: 30px 0;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+        }
+
+        .image-element img {
+            position: relative;
+            height: 200px;
+            width: 200px;
+            bottom: 0;
+
+            transition: all 0.5s ease-out;
+         
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .parent {
+                margin-top: 0;
+            }
+
+            .text-element h2 {
+                font-size: 32px;
+            }
+
+            .text-element p {
+                font-size: 19px;
+                font-weight: 800;    
+            }
+            .text-element {
+                justify-content: left;
+            }
+            .image-element img {
+                position: relative;
+                top: 10;
+                bottom: 0;
+                left: 20%;
+                transition: all 0.5s ease-out;
+
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .parent {
+                max-width: 1920px;
+            }
+
+            .text-element h2 {
+                font-size:32px;
+            }
+
+            .text-element {
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+            }
+
+            .text-element p {
+                font-size: 23px;
+                font-weight: 800;
+                text-align: left;
+            }
+
+            .image-element img {
+             
+                bottom: 0;
+                transition: all 0.5s ease-out;
+          
+
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .text-element {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                justify-content: left;
+            }
+
+
+
+            .text-element h2 {
+                font-size: 32px;
+                font-weight: 800;
+                text-align: left;
+                text-shadow: 2px 2px 2px #030a2c74;
+            }
+
+            .text-element p {
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            .image-element img {
+                position: relative;
+                object-fit: contain;
+                
+                bottom: 0;
+
+            }
+        }
+    }
+}

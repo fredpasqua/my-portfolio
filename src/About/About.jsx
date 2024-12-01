@@ -2,11 +2,7 @@ import Resume from "../Images/Fred_Pasqua_Resume_2.19.23.pdf";
 export const About = () => (
   <div className="about" id="about">
     <h2 className="header-title">About</h2>
-    <p>
-      My name is Fred Pasqua and I am a web developer. I love working with new
-      tech and creating engaging designs, clean code and excellent user
-      experiences.{" "}
-    </p>
+
     <ul>
       <li className="bold-li">Tech Skills</li>
       <li>Frameworks: React, Angular and React Native</li>

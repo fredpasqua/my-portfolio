@@ -1,0 +1,206 @@
+.parent {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100vw;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.649);
+    border: 5px solid #93dcf7;
+}
+
+.background {
+    background: black;
+    background-repeat: no-repeat;
+}
+
+.text-element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.text-element h2 {
+    color: #93dcf7;
+    text-shadow: 2px 3px rgba(36, 36, 36, 0.4);
+}
+
+.text-element p {
+
+    color: #93dcf7;
+    font-family: 'Share Tech Mono', monospace;
+
+    padding: 0 0 0 0px;
+}
+
+.image-element {
+    min-width: 30%;
+    bottom: 0;
+    transition: all 0.5s ease-out;
+}
+
+.brightness {
+    filter: brightness(.6);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 360px) {
+    .text-element {
+        margin: 5px;
+        padding-left: 0;
+    }
+
+    .parent {
+        margin-top: 0;
+    }
+
+    .text-element h2 {
+        font-size: 28px;
+
+    }
+
+    .text-element p {
+
+        font-size: 18px;
+    }
+
+    .text-element {
+        margin-top: 40px;
+        max-width: 50%;
+    }
+
+    .image-element {
+        max-width: 50px !important;
+        bottom: 0;
+        position: relative;
+        left: 0px;
+    }
+
+    .image-element img {
+        max-height: 65%;
+        position: relative;
+        top: 35%;
+        right: -10px;
+        transition: all 0.5s ease-out;
+    }
+
+    @media (min-width: 576px) {
+        .text-element h2 {
+            text-align: left;
+            font-size: 32px;
+            padding: 0;
+
+        }
+
+        .text-element {
+            margin: 30px 0;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .image-element img {
+            position: relative;
+            max-height: 90%;
+            top: 10%;
+            bottom: 0;
+            right: 5%;
+            transition: all 0.5s ease-out;
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .parent {
+                margin-top: 0;
+            }
+
+            .text-element h2 {
+                font-size: 42px;
+            }
+
+            .text-element p {
+                font-size: 19px;
+                font-weight: 800;
+                text-align: left;
+            }
+
+            .image-element img {
+                position: relative;
+                max-height: 100%;
+                top: 0;
+                bottom: 0;
+                left: 10%;
+                transition: all 0.5s ease-out;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .parent {
+                max-width: 1920px;
+            }
+
+            .text-element h2 {
+                font-size: 50px;
+            }
+
+            .text-element {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .text-element p {
+                font-size: 23px;
+                font-weight: 800;
+                text-align: left;
+            }
+
+            .image-element img {
+                position: relative;
+                max-height: 110%;
+                top: -10%;
+                bottom: 0;
+                left: 15%;
+                transition: all 0.5s ease-out;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .text-element {
+                position: relative;
+                left: -30px;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+
+
+            .text-element h2 {
+                font-size: 32px;
+                font-weight: 800;
+                text-align: left;
+                text-shadow: 2px 2px 2px #030a2c74;
+            }
+
+            .text-element p {
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            .image-element img {
+                max-height: 120%;
+                left: 0;
+                top: -20%;
+                bottom: 0;
+                position: relative;
+                object-fit: contain;
+            }
+        }
+    }
+}

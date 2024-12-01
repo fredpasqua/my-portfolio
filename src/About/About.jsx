@@ -16,7 +16,7 @@ export const About = () => (
         <ul className="skills">
           <lh>Related Skills</lh>
           <li>Copywriting</li>
-          <li>Seach Engine Optimization</li>
+          <li>Search Engine Optimization</li>
           <li>Sales and Marketing</li>
           <li>Project Management</li>
         </ul>
